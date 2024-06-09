@@ -1,0 +1,13 @@
+{
+    "builds": [{
+        "src": "Covid19/wsgi.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "250mb", "runtime": "python3.12" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "Covid19/wsgi.py"
+        }
+    ]
+}

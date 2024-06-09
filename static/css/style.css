@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+#picker{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+h4 a{
+    text-decoration: none;
+}
+h4{
+    text-align: center;
+}
+.row{
+    margin: 20px 0;
+}
+.card{
+    overflow: hidden;
+}
+
+@media (max-width: 400px) {
+    .nsewdrag {
+        width: 250px;
+        height: 500px;
+    }
+}
